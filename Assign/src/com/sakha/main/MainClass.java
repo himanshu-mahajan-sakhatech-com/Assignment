@@ -8,6 +8,8 @@ public class MainClass {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		// TODO Auto-generated method stub
+		Login1 temp = new Login1();
+		temp.getUser();
 		Login1 l = new Login1();
 		l.getUser();
 		
